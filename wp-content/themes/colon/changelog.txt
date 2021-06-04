@@ -1,0 +1,29 @@
+== Changelog ==
+
+v1.0.8
+--Fixed right align menu issue
+
+v1.0.7
+--Bug fixes
+
+v1.0.6
+--Added Sticky header option
+
+v1.0.5
+--Toggle menu button fix
+--Added Copyrights spacing option
+
+v1.0.4
+--bug fixes
+
+v1.0.3
+--Added page bg color option
+
+v1.0.2
+--bug fixes
+
+v1.0.1
+--new customizer options
+
+v1.0.0
+--initial release

@@ -1,0 +1,26 @@
+
+== Changelog ==
+
+== 1.0.7 ==
+- Added new theme demos
+
+== 1.0.6 ==
+- Added demo4 for Colon theme
+
+== 1.0.5 ==
+- Bug fixes
+
+== 1.0.4 ==
+- Colon demo import fix
+
+== 1.0.3 ==
+- Add Colon theme demo
+
+== 1.0.2 ==
+- Demo import issue fix in Purea Magazine
+
+== 1.0.1 ==
+- Bug fixes
+
+== 1.0.0 ==
+- Initial release 
