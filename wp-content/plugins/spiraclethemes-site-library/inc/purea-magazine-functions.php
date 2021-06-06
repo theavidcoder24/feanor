@@ -21,7 +21,7 @@ function spiraclethemes_site_library_purea_magazine_set_import_files() {
         'demo1' =>array(
             'title' => esc_html__( 'Demo 1', 'spiraclethemes-site-library' ),
             'is_pro' => false,
-            'type' => 'elementor',/* Optional eg gutentor, elementor or other page builders or type */
+            'type' => 'magazine',/* Optional eg gutentor, elementor or other page builders or type */
             'author' => esc_html__( 'Spiracle Themes', 'spiraclethemes-site-library' ),
             'keywords' => array( 'magazine', 'multipurpose' ),
             'categories' => array( 'magazine' ),
@@ -36,7 +36,7 @@ function spiraclethemes_site_library_purea_magazine_set_import_files() {
         'demo2' =>array(
             'title' => esc_html__( 'Demo 2', 'spiraclethemes-site-library' ),
             'is_pro' => false,
-            'type' => 'elementor',/* Optional eg gutentor, elementor or other page builders or type */
+            'type' => 'magazine',/* Optional eg gutentor, elementor or other page builders or type */
             'author' => esc_html__( 'Spiracle Themes', 'spiraclethemes-site-library' ),
             'keywords' => array( 'magazine', 'multipurpose' ),
             'categories' => array( 'magazine' ),

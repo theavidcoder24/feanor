@@ -3,7 +3,7 @@
  * Plugin Name:       Spiraclethemes Site Library
  * Plugin URI:        https://wordpress.org/plugins/spiraclethemes-site-library/
  * Description:       A plugin made by spiraclethemes.com to extends its free themes features by adding functionality to import demo data content in just a click.
- * Version:           1.0.7
+ * Version:           1.0.8
  * Author:            SpiracleThemes
  * Author URI:        https://spiraclethemes.com
  * License:           GPL-2.0+
@@ -102,14 +102,16 @@ class Spiraclethemes_Site_Library {
 
         $theme = wp_get_theme();
         if ( get_template_directory() !== get_stylesheet_directory() ) :
-            $this->theme_name = $theme->parent()->get( 'Name' );
-            $this->theme      = $theme->parent();
+            $this->theme_name = $theme->get( 'Name' );
+            $this->theme      = $theme->get( 'Name' );
         else :
             $this->theme_name = $theme->get( 'Name' );
             $this->theme      = $theme->parent();
         endif;
+
         $this->theme_version = $theme->get( 'Version' );
-        $this->theme_slug    = $theme->get_template();
+        $this->theme_slug    = $theme->get( 'TextDomain');
+
         $this->ocdi_slug    = 'advanced-import';
         $this->notification  =  '<p>' . sprintf( 'Get Started with the demo starter templates we have created for this theme. This will save you time creating pages from scratch. Once imported you can edit the content easily.','spiraclethemes-site-library'). ' <a href="' . esc_url( admin_url( 'themes.php?page=' . $this->ocdi_slug) ) . '" class="button" style="text-decoration: none;">' . sprintf( 'Start Importing Templates','spiraclethemes-site-library' ) . '</a></p>';
 
@@ -135,6 +137,9 @@ class Spiraclethemes_Site_Library {
         endif;
         if ('somalite' == $this->theme_slug ) :
             require_once SPIR_SITE_LIBRARY_PATH . '/inc/somalite-functions.php';
+        endif;
+        if ('purea-fashion' == $this->theme_slug ) :
+            require_once SPIR_SITE_LIBRARY_PATH . '/inc/purea-fashion-functions.php';
         endif;
         
     }

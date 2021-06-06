@@ -4,7 +4,7 @@ Contributors: spiraclethemes
 Tags: spiraclethemes, demo, content, widgets, menus, import, data, settings, themes
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 5.7.1
+Tested up to: 5.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

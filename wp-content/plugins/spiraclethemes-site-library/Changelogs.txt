@@ -1,6 +1,9 @@
 
 == Changelog ==
 
+== 1.0.8 ==
+- Purea Magazine changed demo added
+
 == 1.0.7 ==
 - Added new theme demos
 
